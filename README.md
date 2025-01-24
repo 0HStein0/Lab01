@@ -50,7 +50,7 @@ You are not a pesky bugger
 
 ## Citations
 
-(https://learn.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/) \
+[Powershell Documentation - Powershell | Microsoft](https://learn.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/) \
 Helped me find out what actions the first three commands performed.\
 Learned `-Recurse` through trial and error
 
