@@ -42,15 +42,16 @@ My Command Line Shell is: Powershell
 ```
 You are not a pesky bugger
 ```
-9. Make a copy of `test.txt` named `copy.txt` in `DirA`:
-10. View the contents of `DirA`: 
-11. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:
-12. Delete / remove both `fodder.txt` AND `Dir B`:
+9. Make a copy of `test.txt` named `copy.txt` in `DirA`: 'Copy-Item -Path "C:\Users\haede\DirA\test.txt" -Destination "C:\Users\haede\DirA\copy.txt"
+10. View the contents of `DirA`: Get-ChildItem
+11. Make a copy of `test.txt` in `Dir B` named `fodder.txt`: 'Copy-Item -Path "C:\Users\haede\DirA\test.txt" -Destination "C:\Users\haede\Dir B\fodder.txt"
+12. Delete / remove both `fodder.txt` AND `Dir B`: 'cd ../' 'Remove-Item Dir B -Recurse'
 
 
 ## Citations
 
-(https://learn.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/)
-Helped me find out what actions the first three commands performed.
+(https://learn.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/) \
+Helped me find out what actions the first three commands performed.\
+Learned `-Recurse` through trial and error
 
 
