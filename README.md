@@ -31,6 +31,23 @@ My OS is:
 
 My Command Line Shell is: Powershell
 
+1. Create a directory named `DirA`: 'mkdir DirA'
+2. Create a directory named `Dir B`: 'mkdir DirA'
+3. Go into `DirA`: cd DirA
+4. Go into `Dir B` from `DirA`: 'cd ../"Dir B"'
+5. Return to your user's home directory: 'cd ../'
+6. Create a file named `test.txt`: 'New-Item test.txt'
+7. Move the file named `test.txt` into `DirA`: 'Move-Item -Path "C:\Users\haede\test.txt" -Destination "C:\Users\haede\DirA"
+8. Contents of `test.txt`:'notepad.exe'
+```
+You are not a pesky bugger
+```
+9. Make a copy of `test.txt` named `copy.txt` in `DirA`:
+10. View the contents of `DirA`: 
+11. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:
+12. Delete / remove both `fodder.txt` AND `Dir B`:
+
+
 ## Citations
 
 (https://learn.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/)
